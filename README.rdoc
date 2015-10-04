@@ -1,11 +1,11 @@
-==Nick's SoundCloud SandBox
-###To get started:
+=Nick's SoundCloud SandBox
+=== To get started:
 
-*bundle install
-*rake db:create
-*rails s
-*Check out the player at localhost:3000
-*Take a look at the welcome controller and index view to see how it all works
+* bundle install
+* rake db:create
+* rails s
+* Check out the player at localhost:3000
+* Take a look at the welcome controller and index view to see how it all works
 
 
 
