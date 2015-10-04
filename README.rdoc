@@ -1,11 +1,11 @@
-<h1>Nick's SoundCloud SandBox</h1>
-<h3>To get started:</h3>
-<ul>
-<li>bundle install</li>
-<li>rake db:create</li>
-<li>rails s</li>
-<li>***Check out the player at localhost:3000</li>
-<li>***Take a look at the welcome controller and index view to see how it all works</li>
-</ul>
+#Nick's SoundCloud SandBox
+###To get started:
+
+*bundle install
+*rake db:create
+*rails s
+*Check out the player at localhost:3000
+*Take a look at the welcome controller and index view to see how it all works
+
 
 
