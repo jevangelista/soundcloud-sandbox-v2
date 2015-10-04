@@ -1,4 +1,4 @@
-#Nick's SoundCloud SandBox
+==Nick's SoundCloud SandBox
 ###To get started:
 
 *bundle install
