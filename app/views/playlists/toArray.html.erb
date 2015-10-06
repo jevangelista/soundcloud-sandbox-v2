@@ -1,0 +1,10 @@
+<div>
+<% @splittedArray.each_with_index do |url, index| %>
+
+	<li>
+	<a href="<%= url %> "><%= @splittedArrayNames[index] %></a>	
+	</li>
+
+<% end %>
+</div>
+<div>

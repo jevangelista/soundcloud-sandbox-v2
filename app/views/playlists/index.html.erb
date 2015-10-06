@@ -1,0 +1,14 @@
+<% @playlists.each do |playlist| %>
+
+	
+	<div>
+	<%= playlist.tracks %>
+	</div>
+
+	<div>
+	<%= playlist.names %>
+	</div>
+
+	<%= link_to "Array", playlist_arr_path %>
+
+<% end %>
