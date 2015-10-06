@@ -25,18 +25,21 @@ class PlaylistsController < ApplicationController
 
   def toArray
     
-    @playlist = Playlist.find(1)
-    @splittedArray = @playlist.tracks.split(",")
-    #p @splittedArray
-    # binding.pry
-    @splittedArrayNames = @playlist.names.split(",")
+    @playlists = Playlist.all
+
+    @playlists.each do |i|
+      @splittedArray = i.tracks.split(",")
+      p @splittedArray
+      # binding.pry
+      @splittedArrayNames = i.names.split(",")
+    end
     # you have two lists above (track url, name)
     # now create a list that puts the two together
     # {track_url, name}
-    @splittedArray.each do |i|
-      @tupleArray = {track_url:  @splittedArray.pop(), name: @splittedArrayNames.pop()}
-    end
-    p  @tupleArray
+
+    # @splittedArray.each do |i|
+    #   @tupleArray = {@splittedArray =}
+    # end
 
   end
 
